@@ -1,0 +1,51 @@
+table {
+	background: #f2f2f2;
+	border-collapse: separated;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	width: 72%;
+}
+
+th {
+	font-family: 'Patua One', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	padding: 20px;
+	text-align: left;
+	background-image: linear-gradient(#646f7f, #4a5564);
+}
+
+td {
+	color: #5f6062;
+	padding: 20px;
+	text-align: left;
+	font-size: 12px;
+}
+
+tr:nth-child(even) {
+	background: #FFFFFF
+}
+
+tr:nth-child(odd) {
+	background: #f2f2f2
+}
+
+tbody:hover>tr td {
+	opacity: 0.5;
+}
+
+tbody:hover>tr:hover td {
+	text-shadow: none;
+	opacity: 1.0;
+}
+
+#delete-icon, #update-icon {
+	text-decoration: none;
+	border-radius: 50%;
+	padding: 10%;
+	color: #2c4762;
+}
+
+#delete-icon:hover, #update-icon:hover {
+	color: #00b489;
+}
